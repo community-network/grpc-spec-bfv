@@ -1,0 +1,1422 @@
+[
+    {
+        "guid": "015DCFE3-A0EC-4944-B344-D01C47A6D438",
+        "name": "STUKA B-1",
+        "description": "The screaming sound of a Stuka dive-bomber is one of the defining sounds of the war. Dive-bombing was a new concept, replacing the need for field artillery by allowing infantry to call for urgent pinpoint fire support, dislodging stubborn enemy positions or vehicles.  ",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/72/103/Stuka_JU-87_B-1-b8672113.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1300.0,
+                "kills": 0.0,
+                "vehicle destroy": 319.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/72/103/Stuka_JU-87_B-1-b8672113.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/72/103/Stuka_JU-87_B-1-b8672113.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 763.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "35EAA46C-30A0-43D2-B416-C68AEC789022",
+        "name": "STUKA B-2",
+        "description": "The Ju 87 Stuka was extremely maneuverable and could handle the high Gs of dive-bombing.  An automatic system helped pilots pull out of a dive in case they should black out.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/32/46/Stuka_JU-87_B-2-e0d2ffbf.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 18375.0,
+                "kills": 173.0,
+                "vehicle destroy": 225.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/32/46/Stuka_JU-87_B-2-e0d2ffbf.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/32/46/Stuka_JU-87_B-2-e0d2ffbf.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "5B5CB784-96BF-456C-A44D-ACFD7B90BFBA",
+        "name": "MOSQUITO MKII",
+        "description": "The British built the Mosquito multi-role plane mostly out of wood, earning it the nickname \"The Wooden Wonder\".  Well-armed, adaptable and above all swift, the Mosquito was one of the fastest aircraft in the world.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/14/61/MosquitoFBMkVI-0e3d6935.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 730.0,
+                "kills": 0.0,
+                "vehicle destroy": 34.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/14/61/MosquitoFBMkVI-0e3d6935.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/14/61/MosquitoFBMkVI-0e3d6935.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 235.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "36590FB0-3572-40DD-A1BB-4EB165CA83F0",
+        "name": "MOSQUITO FB MKVI",
+        "description": "The British Mosquito fighter bomber variants were usually armed with four 20mm cannons, while retaining its machine guns and bombing capabilities. A much rarer variant included the \"Tsetse\", which featured a 6 pdr anti-tank cannon. Primarily intended for attacking submarines, the \"Tsetse\" was also used successfully to destroy enemy bombers.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/41/114/Mosquito_FBMkVI-29722e50.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1055.0,
+                "kills": 3.0,
+                "vehicle destroy": 190.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/41/114/Mosquito_FBMkVI-29722e50.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/41/114/Mosquito_FBMkVI-29722e50.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 894.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "5A648D01-2256-4902-A3CE-94528CB01813",
+        "name": "BF 109 G-2",
+        "description": "This fighter was the backbone of the Luftwaffe. The Germans first deployed it in Spain, and it would go on to see combat throughout World War II. The 109 G-2 entered production in May, 1942.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/58/67/BF109-c6bd45c6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 6390.0,
+                "kills": 28.0,
+                "vehicle destroy": 303.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/58/67/BF109-c6bd45c6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/58/67/BF109-c6bd45c6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 2,
+            "progression": {
+                "valueNeeded": 4500.0,
+                "valueAcquired": 4334.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "3B9BD37C-2724-4450-BA66-24F307120AF1",
+        "name": "BF 109 G-6",
+        "description": "In 1943 the Germans introduced the Bf109 G-6. It had upgraded, heavier machine guns, which made it popular with the pilots. Almost 12,000 were built, well into 1944.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/58/67/BF109-c6bd45c6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 89210.0,
+                "kills": 1183.0,
+                "vehicle destroy": 345.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/58/67/BF109-c6bd45c6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/58/67/BF109-c6bd45c6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "E594E1B2-345B-49E1-B0A2-5264ADEAC992",
+        "name": "SPITFIRE MK VA",
+        "description": "The British Spitfire is one of the most famous fighter planes of all time. Eight machine guns, a powerful engine and unmatched turning ability made it a deadly adversary in the air.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/80/12/SpitfirePlane_MX-Va-b00c8a23.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 3220.0,
+                "kills": 10.0,
+                "vehicle destroy": 73.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/80/12/SpitfirePlane_MX-Va-b00c8a23.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/80/12/SpitfirePlane_MX-Va-b00c8a23.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 1,
+            "progression": {
+                "valueNeeded": 3500.0,
+                "valueAcquired": 2345.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "EA6C7D1F-E093-42B9-BEF5-34129A2E57D0",
+        "name": "SPITFIRE MK VB",
+        "description": "Britain's iconic Spitfire was a highly adaptable platform, with many revisions to meet the shifting needs of the conflict. This revision features destroyer weapon loadouts optimised to eliminate enemy bombers.  ",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/80/12/SpitfirePlane_MX-Va-b00c8a23.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 66565.0,
+                "kills": 799.0,
+                "vehicle destroy": 63.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/80/12/SpitfirePlane_MX-Va-b00c8a23.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/80/12/SpitfirePlane_MX-Va-b00c8a23.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "001E83E3-62F1-4073-A1F4-5DA4A966F5CA",
+        "name": "BLENHEIM MKI",
+        "description": "The Blenheim began life as a civilian aircraft. The RAF was impressed with how it well it flew and ordered a light bomber version. It entered service in 1937.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/84/16/blenheim-acf0c257.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 570.0,
+                "kills": 1.0,
+                "vehicle destroy": 41.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/84/16/blenheim-acf0c257.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/84/16/blenheim-acf0c257.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 336.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "0C1A180B-631D-405D-B783-DDA575E727F4",
+        "name": "BLENHEIM MK IF",
+        "description": "The British made a night fighter out of the Blenheim bomber by adding a radar and four machine guns. About 200 of these were built, and they also had an extended range.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/84/16/blenheim-acf0c257.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 690.0,
+                "kills": 0.0,
+                "vehicle destroy": 141.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/84/16/blenheim-acf0c257.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/84/16/blenheim-acf0c257.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 843.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "E96EAD9E-768F-456E-B984-79F33D07AB2A",
+        "name": "JU-88 A",
+        "description": "The Ju-88 was one of the most versatile twin-engine aircrafts of World War II, but where it excelled was as a medium bomber.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/58/34/JU88C-3a2296b6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1130.0,
+                "kills": 1.0,
+                "vehicle destroy": 648.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/58/34/JU88C-3a2296b6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/58/34/JU88C-3a2296b6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 804.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "0E5857E1-2FCA-4669-9C61-8BAE06967172",
+        "name": "JU-88 C",
+        "description": "The Ju 88 was developed to fill a myriad of roles on the battlefield, including heavy fighter, bomber destroyer and ground attack aircraft. Some of these variants mounted high calibre anti-tank cannons in gondolas under the fuselage, while retaining some bombing capability.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/83/65/JU88_C-ad411a79.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 48445.0,
+                "kills": 634.0,
+                "vehicle destroy": 242.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/83/65/JU88_C-ad411a79.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/83/65/JU88_C-ad411a79.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "E3BC9D52-E12B-4804-8A5D-00DC6D72B537",
+        "name": "C-47",
+        "description": "The iconic C47 transport was used by many allied forces across all theaters. More than 10,000 were built. It was used to ferry supplies and troops, deploy paratroopers or tow gliders into battle. ",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/84/88/C47-aca81f3d.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 65.0,
+                "kills": 0.0,
+                "vehicle destroy": 4.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/84/88/C47-aca81f3d.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/84/88/C47-aca81f3d.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "1DBA3474-920B-496D-A039-897681C0D682",
+        "name": "CORSAIR F4U-1A",
+        "description": "Designed to be operated from a naval carrier and best known for its distinctive upturned wings, this fighter aircraft was well regarded by the pilots who operated it as well as those who faced it in a dogfight.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/31/56/Pac_Corsair-1f38fce6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1285.0,
+                "kills": 1.0,
+                "vehicle destroy": 20.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/31/56/Pac_Corsair-1f38fce6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/31/56/Pac_Corsair-1f38fce6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 392.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "9C62BC1F-624E-4474-9350-47842BF4DB3F",
+        "name": "CORSAIR F4U-1C",
+        "description": "A variant of the legendary line of fighter aircraft that incorporated some new features allowing it to carry larger payloads and the potential to have an increased top speed.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/31/56/Pac_Corsair-1f38fce6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 31345.0,
+                "kills": 295.0,
+                "vehicle destroy": 17.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/31/56/Pac_Corsair-1f38fce6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/31/56/Pac_Corsair-1f38fce6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "7B70A0E1-C3D7-47BF-81BC-CA5C3D6BDBB4",
+        "name": "ZERO A6M2",
+        "description": "Designed to be extraordinarily light to enable the aircraft flight capability for extended periods of time, the Zero was small and maneuverable compared to other aircraft.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/50/12/Pac_Zero-32f4d600.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 195.0,
+                "kills": 0.0,
+                "vehicle destroy": 17.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/50/12/Pac_Zero-32f4d600.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/50/12/Pac_Zero-32f4d600.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 31.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "63903109-1D91-4DD5-AC60-3F7373EDEDB5",
+        "name": "ZERO A6M5",
+        "description": "With modified wings and control surface design this model had improved handling that made it more effective at intercepting bombers and other aircraft.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/50/12/Pac_Zero-32f4d600.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 25625.0,
+                "kills": 326.0,
+                "vehicle destroy": 24.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/50/12/Pac_Zero-32f4d600.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/50/12/Pac_Zero-32f4d600.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "5989A4A2-C277-458B-9802-DB1D793325CE",
+        "name": "A-20 Bomber",
+        "description": "Originally designed for high altitude and later modified for medium to low altitude, this bomber was apprised for its ease of maneuverability often providing support to infantry on the ground.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/59/57/A20-c5c7daa0.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 45.0,
+                "kills": 0.0,
+                "vehicle destroy": 85.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/59/57/A20-c5c7daa0.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/59/57/A20-c5c7daa0.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 0,
+            "progression": {
+                "valueNeeded": 2500.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "D8E43087-03DC-4545-97D6-F89AE52599F6",
+        "name": "P-70 Night Fighter",
+        "description": "The British were the first to realize the potential for a night fighter variant of the A-20. Modifications such as added radar capability and additional armor became the prototype for what eventually became the P-70",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/59/57/A20-c5c7daa0.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 53545.0,
+                "kills": 937.0,
+                "vehicle destroy": 118.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/59/57/A20-c5c7daa0.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/59/57/A20-c5c7daa0.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "C6A48741-C023-4FDE-B957-2C21954FC074",
+        "name": "KÜBELWAGEN",
+        "description": "The Kübelwagen was the German equivalent of the American Jeep. It got its name from its bucket seats. Over 50,000 were made, and it had a top speed of 80 kmh/50 mph.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/60/54/KubelwagenTransport-c436e207.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 13380.0,
+                "kills": 60.0,
+                "vehicle destroy": 2880.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/60/54/KubelwagenTransport-c436e207.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/60/54/KubelwagenTransport-c436e207.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "757CAA18-DBB6-47AB-B9DE-3262BC898828",
+        "name": "KETTENKRAD",
+        "description": "If a motorcycle and a tank had a bastard child it would be the Kettenkraftrad. It had a narrow tracked rear and a single steering wheel to the front. It was intended as a light tractor for German airborne troops.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/28/17/KettenkradLightTransport-1cefde85.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1760.0,
+                "kills": 1.0,
+                "vehicle destroy": 61.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/28/17/KettenkradLightTransport-1cefde85.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/28/17/KettenkradLightTransport-1cefde85.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "965D667A-7AB2-4F24-B659-6A857DFA64A4",
+        "name": "UNIVERSAL CARRIER",
+        "description": "Developed shortly before the war, the universal carrier was used to transport troops, equipment or as a machine gun platform. It saw wide-spread use in all theaters and was also exported to a number of countries. ",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/31/11/UniversalCarrier-e1f57b59.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 4975.0,
+                "kills": 17.0,
+                "vehicle destroy": 673.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/31/11/UniversalCarrier-e1f57b59.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/31/11/UniversalCarrier-e1f57b59.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "9F6651BC-9DE8-4C39-859C-3A1C6192F4C2",
+        "name": "TRACTOR",
+        "description": "With an engine capable of producing awesome amounts of torque, the Tractor excels in most environments. It offers neither protection nor firepower, however. No soldier in their right mind would drive this to the battlefield.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/56/26/Vehicle_Blueprint_Tractor-38e6f5df.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 75.0,
+                "kills": 0.0,
+                "vehicle destroy": 26.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/56/26/Vehicle_Blueprint_Tractor-38e6f5df.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/56/26/Vehicle_Blueprint_Tractor-38e6f5df.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "BD75E8E9-A308-4422-936F-CF8D13D2A807",
+        "name": "TYPE 95 CAR",
+        "description": "Considered the first four wheel drive passenger car to be mass produced, it was in use well before Japan entered the war. Light and quick it was found to be a more suitable method of off-road transportation than motorcycles.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/125/47/Car_Type95_Kurogane-832fd07e.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 2360.0,
+                "kills": 0.0,
+                "vehicle destroy": 35.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/125/47/Car_Type95_Kurogane-832fd07e.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/125/47/Car_Type95_Kurogane-832fd07e.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "A7F5FF48-8499-46A9-AC42-1DC4ED4B532C",
+        "name": "GPW",
+        "description": "By 1940 the US Army’s need for a light 4x4 vehicle was clear. With efforts from a handful of manufacturers the design of the jeep was finalized and production of the cross country reconnaissance vehicle could begin.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/114/43/Car_Willys-8ed5b812.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 6890.0,
+                "kills": 18.0,
+                "vehicle destroy": 484.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/114/43/Car_Willys-8ed5b812.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/114/43/Car_Willys-8ed5b812.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "F70DA9A9-A345-446D-A930-BA8FC59929F0",
+        "name": "DINGHY",
+        "description": "Named after small rowing boats found in the early 19th century among the rivers of India, this craft will easily traverse across calm waters.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/119/34/Boat_Dinghy-7722932f.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1950.0,
+                "kills": 1.0,
+                "vehicle destroy": 36.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/119/34/Boat_Dinghy-7722932f.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/119/34/Boat_Dinghy-7722932f.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "F3696A2E-7FED-4CA0-9A84-70BFFB167688",
+        "name": "LCVP",
+        "description": "The flat bottom of this craft gave it the ability to propel itself over shallow waters and onto sandy beaches allowing for incredibly fast deployment of the soldiers on-board.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/37/126/Boat_Higgins-257e601c.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1885.0,
+                "kills": 5.0,
+                "vehicle destroy": 14.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/37/126/Boat_Higgins-257e601c.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/37/126/Boat_Higgins-257e601c.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "CD8F0733-B01D-4357-B027-A6461CCAD018",
+        "name": "CHURCHILL MK VII",
+        "description": "The Churchill was a British tank designed to face the German Panzers.  Thick armor and 75mm gun made it a true beast of the battlefield. Some even called it the \"Heavy Churchill\".",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/34/72/churchill_MKVII-22b8525d.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 16845.0,
+                "kills": 252.0,
+                "vehicle destroy": 842.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/34/72/churchill_MKVII-22b8525d.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/34/72/churchill_MKVII-22b8525d.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "7A05A13B-52A5-4AC3-9210-4BAC70D78706",
+        "name": "CHURCHILL GUN CARRIER",
+        "description": "The Churchill Gun Carrier was an early attempt by the British at putting a high velocity cannon on a tank. The high-powered gun is deadly, but cannot rotate independently of the hull.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/7/37/ChurchillGunCarrierTank-0725b8c6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 1950.0,
+                "kills": 15.0,
+                "vehicle destroy": 198.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/7/37/ChurchillGunCarrierTank-0725b8c6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/7/37/ChurchillGunCarrierTank-0725b8c6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 2,
+            "progression": {
+                "valueNeeded": 4500.0,
+                "valueAcquired": 2604.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "566A685D-D457-4BE4-81DC-6E9C40E1371B",
+        "name": "TIGER I",
+        "description": "The Tiger I heavy tank was arguably the most famous tank of World War II. The Germans introduced it in 1942. It was expensive to maintain but outstanding in combat.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/119/57/tiger-89c7d89c.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 63890.0,
+                "kills": 1396.0,
+                "vehicle destroy": 3079.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/119/57/tiger-89c7d89c.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/119/57/tiger-89c7d89c.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "E0DCC786-D119-408D-8916-F375703DEA61",
+        "name": "PANZER 38T",
+        "description": "The Panzer 38(t) was used by Germany in the early years of World War II. As a light tank it performed well against rival designs of the era, and it saw combat on all the major fronts.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/37/90/Panzer38t-255a0727.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 2297225.0,
+                "kills": 93413.0,
+                "vehicle destroy": 1176.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/37/90/Panzer38t-255a0727.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/37/90/Panzer38t-255a0727.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "90ABB075-6267-4679-B7FC-01F20596E613",
+        "name": "STAGHOUND T17E1",
+        "description": "This armored car was a good scout vehicle. The Americans built it, but the US Army never adopted it. Instead, they supplied it to Great Britain who would use it all over the world.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/86/30/staghound-aae207df.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 2161775.0,
+                "kills": 97293.0,
+                "vehicle destroy": 1882.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/86/30/staghound-aae207df.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/86/30/staghound-aae207df.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "C2E7AFD0-7426-4DF2-9C66-FE3E212FF773",
+        "name": "PANZER IV",
+        "description": "The Panzer IV was one of the main German medium tank during the war, and it saw combat on all fronts. Many improvements were made to it over time, such as thicker armor, more powerful engine and many main gun revisions.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/83/59/PanzerIVTank_1-adc5c741.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 10445.0,
+                "kills": 174.0,
+                "vehicle destroy": 1947.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/83/59/PanzerIVTank_1-adc5c741.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/83/59/PanzerIVTank_1-adc5c741.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "D989E071-4139-49AD-B085-15A0CC154176",
+        "name": "FLAKPANZER IV",
+        "description": "The Germans built the Flakpanzer IV \"Wirbelwind\" late in the war. With it they tried to compensate for the increased Allied air power. The anti-aircraft gun used was a four-barrel Flakvierling 38. ",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/44/0/PanzerIVWirbelwind-d40033e6.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 12460.0,
+                "kills": 168.0,
+                "vehicle destroy": 991.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/44/0/PanzerIVWirbelwind-d40033e6.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/44/0/PanzerIVWirbelwind-d40033e6.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "BE0C57D6-9333-48A9-9576-6C5194359452",
+        "name": "STURMGESCHUTZ IV",
+        "description": "The StuG IV was a German assault gun. These were used to support infantry attacks, as they were able to destroy bunkers and other dug in positions. Some were also fitted with potent anti-tank cannons, making them excellent counters to enemy armor, using defensive and ambushing tactics. Over a thousand were built until the end of the war.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/19/60/StugIV-133ce60b.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 4175.0,
+                "kills": 63.0,
+                "vehicle destroy": 317.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/19/60/StugIV-133ce60b.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/19/60/StugIV-133ce60b.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "EA99AC31-1369-49F4-9D9E-6EF73CDCD425",
+        "name": "VALENTINE MK VIII",
+        "description": "The Valentine was an infantry tank produced by Great Britain. It had a good reputation, and was upgraded many times over the years. The Mk VIII featured a diesel engine and 6-pounder main gun.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/40/55/valentine-2837c094.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 322425.0,
+                "kills": 6675.0,
+                "vehicle destroy": 1235.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/40/55/valentine-2837c094.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/40/55/valentine-2837c094.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "7686EE72-7529-40D2-A3D7-E9D58671049C",
+        "name": "VALENTINE ARCHER",
+        "description": "The Archer was unique in that its gun faced backwards. The British based it on the Valentine tank, and its powerful 3 inch gun was very effective.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/109/49/ArcherTankDestroyer-93312d76.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 2010.0,
+                "kills": 38.0,
+                "vehicle destroy": 324.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/109/49/ArcherTankDestroyer-93312d76.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/109/49/ArcherTankDestroyer-93312d76.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 3,
+            "progression": {
+                "valueNeeded": 5500.0,
+                "valueAcquired": 757.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "C727CBA0-1939-482D-A9D9-6EF70B60E111",
+        "name": "VALENTINE AA MK I",
+        "description": "The British built this AA platform by putting an 40mm automatic cannon on a Valentine tank hull. Later versions replaced the single cannon with twin and even triple 20mm guns.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/9/61/ValentineCrusaderAA-f7c31668.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 16540.0,
+                "kills": 241.0,
+                "vehicle destroy": 681.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/9/61/ValentineCrusaderAA-f7c31668.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/9/61/ValentineCrusaderAA-f7c31668.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 4,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "7B6E860F-1946-40E5-8F67-65B8AA32B1AF",
+        "name": "SHERMAN",
+        "description": "Originally designed to support infantry the M4 medium tank found itself pitted against all manner of armored vehicles. Sporting a 75mm cannon it was renowned for its reliability.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/62/59/Pac_Sherman-c2c53239.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 28080.0,
+                "kills": 369.0,
+                "vehicle destroy": 1118.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/62/59/Pac_Sherman-c2c53239.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/62/59/Pac_Sherman-c2c53239.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "D9FBB9A3-B2EE-4272-AA43-4E545415C130",
+        "name": "T34 CALLIOPE",
+        "description": "Named after the steam powered instruments of the mid-nineteenth century due to the multiple tubes mounted on top resembling whistles, these experimental Shermans were intended to increase available firepower against large infantry groups.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/24/64/Sherman_Calliope_DeployVersion-18400eba.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 6360.0,
+                "kills": 103.0,
+                "vehicle destroy": 51.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/24/64/Sherman_Calliope_DeployVersion-18400eba.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/24/64/Sherman_Calliope_DeployVersion-18400eba.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "16B115E5-7431-47AF-9E54-45EC1E5E8CF6",
+        "name": "HACHI",
+        "description": "Intended as an infantry support tank this was the most widely produced Japanese tank during the war. It saw extensive use before and throughout the war and only small modifications were ever made from the original design.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/19/22/Chi-Ha_RocketLauncher_DeployVersion-13eacf14.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 805.0,
+                "kills": 11.0,
+                "vehicle destroy": 1.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/19/22/Chi-Ha_RocketLauncher_DeployVersion-13eacf14.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/19/22/Chi-Ha_RocketLauncher_DeployVersion-13eacf14.png"
+        },
+        "expansion": null,
+        "rank": null
+    },
+    {
+        "guid": "8695E5AF-8D21-49E7-9507-E5F692531E90",
+        "name": "TYPE 97",
+        "description": "The Type 97 was the most widely produced Japanese medium tank of the war, its hull being used as the basis for a wide variety of armored vehicles. Starting out with a short barreled 57mm cannon, it may be upgraded with a more potent 75mm gun or a large caliber howitzer.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/79/98/Pac_ChiHa-4f62188f.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 32060.0,
+                "kills": 563.0,
+                "vehicle destroy": 72.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/79/98/Pac_ChiHa-4f62188f.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/79/98/Pac_ChiHa-4f62188f.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "5B536328-4B3E-43AF-98E1-3819439CD22B",
+        "name": "LVT",
+        "description": "Able to travel across water, sand, and mud as easily as dry ground the LVT quickly became a celebrated support vehicle when infantry were making a beach landing.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/1/124/Pac_LVT-0184b9e2.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 29880.0,
+                "kills": 544.0,
+                "vehicle destroy": 115.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/1/124/Pac_LVT-0184b9e2.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/1/124/Pac_LVT-0184b9e2.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "D35FA1AA-7BF3-4FB2-BCF6-9BFCF4C32901",
+        "name": "KA-MI",
+        "description": "This amphibious tank employed air-tight front and rear mounted pontoons, each divided into multiple sections internally to minimize flooding when damaged.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/50/29/Pac_KaMi-321d1463.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 20425.0,
+                "kills": 279.0,
+                "vehicle destroy": 24.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/50/29/Pac_KaMi-321d1463.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/50/29/Pac_KaMi-321d1463.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "128B62CD-EF11-487C-9B96-AF2A1E0AF886",
+        "name": "M8 GREYHOUND",
+        "description": "Although it had light armor compared to most tanks, the speed and maneuverability of this 6x6 armored car was often utilized for reconnaissance or forward scouting.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/118/71/Greyhound-76b96c18.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 585640.0,
+                "kills": 15467.0,
+                "vehicle destroy": 895.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/118/71/Greyhound-76b96c18.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/118/71/Greyhound-76b96c18.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "B898AC20-8815-452D-9D2B-6B49E9B064FF",
+        "name": "SdKfz 234 PUMA",
+        "description": "In addition to being the only German armored vehicle to use an air cooled diesel engine, it also hosts two driver's seats facing opposite directions, along with eight wheels making it capable of quickly changing direction.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/104/24/Puma-68e8c940.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 486875.0,
+                "kills": 11740.0,
+                "vehicle destroy": 497.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/104/24/Puma-68e8c940.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/104/24/Puma-68e8c940.png"
+        },
+        "expansion": null,
+        "rank": {
+            "currentRank": 6,
+            "progression": {
+                "valueNeeded": 0.0,
+                "valueAcquired": 0.0,
+                "unlocked": true
+            }
+        }
+    },
+    {
+        "guid": "FE472023-AD0B-4F03-BEDB-383E58CB84C7",
+        "name": "VICKERS",
+        "description": "This evolution of the British Maxim gun saw use in all manner of combat, from infantry to anti-aircraft. Although it was not the fastest firing it had a reputation as one of the most reliable machine guns ever made.",
+        "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/21/95/VickersStationaryMG-eb5f1bdb.png",
+        "accessories": [],
+        "stats": {
+            "values": {
+                "seconds": 125.0,
+                "kills": 0.0,
+                "vehicle destroy": 6.0
+            }
+        },
+        "progression": {
+            "valueNeeded": 1.0,
+            "valueAcquired": 1.0,
+            "unlocked": true
+        },
+        "images": {
+            "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/21/95/VickersStationaryMG-eb5f1bdb.png",
+            "Small": "[BB_PREFIX]/gamedata/Casablanca/21/95/VickersStationaryMG-eb5f1bdb.png"
+        },
+        "expansion": null,
+        "rank": null
+    }
+]

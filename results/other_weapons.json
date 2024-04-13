@@ -1,0 +1,2331 @@
+[
+    {
+        "weapon": {
+            "guid": "E0661623-91F8-49E5-9601-55559702AE28",
+            "name": "VGO",
+            "description": "The VGO began life as an airplane-mounted machine gun. But it was soon adopted for land use. A high rate of fire made it a favorite among Allied commando units.",
+            "category": "MMG",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/17/53/VickersK-11cb114e.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "accuracy": 0.0,
+                    "seconds": 40.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/17/53/VickersK-11cb114e.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/17/53/VickersK-11cb114e.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/79/45/VickersK-4fd334aa.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/17/53/VickersK-11cb114e.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/112/10/VickersK-900a3c63.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/17/53/VickersK-11cb114e.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": {
+                "currentRank": 0,
+                "progression": {
+                    "valueNeeded": 1000.0,
+                    "valueAcquired": 0.0,
+                    "unlocked": true
+                }
+            },
+            "extendedStats": {
+                "values": {
+                    "per minute headshots": 0.0,
+                    "per minute score": 0.0,
+                    "per minute shots": 0.0,
+                    "per minute hits": 0.0,
+                    "per minute kills": 0.0
+                }
+            }
+        },
+        "group": {
+            "name": "MMG"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "49F8C32C-C0DE-4485-A669-80AD66E45E67",
+            "name": "Solveig's Knife",
+            "description": "A hunting knife from the Northern part of Europe. Useful for skinning and gutting all sorts of fish and game. A classic utility blade that can also be used for self-defence.",
+            "category": "MELEE",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/103/52/SolveigKnife-9934570a.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "seconds": 20.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/103/52/SolveigKnife-9934570a.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/103/52/SolveigKnife-9934570a.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/58/80/SolveigKnife-3ab0b443.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/103/52/SolveigKnife-9934570a.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/42/75/SolveigKnife-2ab5955f.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/103/52/SolveigKnife-9934570a.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute headshots": 0.0,
+                    "per minute score": 0.0,
+                    "per minute shots": 0.0,
+                    "per minute hits": 0.0,
+                    "per minute kills": 0.0
+                }
+            }
+        },
+        "group": {
+            "name": "MELEE"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "075C0C36-7F72-47F9-AEB8-F8DAC9F1CC77",
+            "name": "Broken Bottle",
+            "description": "Improvised weapons were often a necessity during wartime. Bottles tended to be in abundance both in urban and rural situations, whether they were discovered or property of the soldiers.",
+            "category": "MELEE",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/84/42/BrokenBottle-542adc4d.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 10.0,
+                    "headshots": 0.0,
+                    "seconds": 35.0,
+                    "score": 1136.0,
+                    "hits": 13.0,
+                    "shots": 46.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/84/42/BrokenBottle-542adc4d.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/84/42/BrokenBottle-542adc4d.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/0/70/BrokenBottle-0046c34c.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/84/42/BrokenBottle-542adc4d.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/10/50/BrokenBottle-f6cec18d.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/84/42/BrokenBottle-542adc4d.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute headshots": 0.0,
+                    "per minute score": 1947.43,
+                    "per minute shots": 78.86,
+                    "per minute hits": 22.29,
+                    "per minute kills": 17.14
+                }
+            }
+        },
+        "group": {
+            "name": "MELEE"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "9656CD76-A4DE-468E-8C6C-3AC060B3FD82",
+            "name": "EGW Survival Knife",
+            "description": "The EGW survival knife was never officially issued by the US Army, though soldiers often bought one for themselves. They were very versatile with a serrated back edge but were also prone to rust.",
+            "category": "MELEE",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/124/108/RustyEGWSurvivalKnife-846cfb4d.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/124/108/RustyEGWSurvivalKnife-846cfb4d.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/124/108/RustyEGWSurvivalKnife-846cfb4d.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/25/107/RustyEGWSurvivalKnife-e76b1687.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/124/108/RustyEGWSurvivalKnife-846cfb4d.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/89/78/RustyEGWSurvivalKnife-594e30c6.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/124/108/RustyEGWSurvivalKnife-846cfb4d.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "MELEE"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "A5BA4E35-9C10-4DD8-A1F1-D6A2A0A7524B",
+            "name": "Combat Knife",
+            "description": "A combat and utility knife designed as much as a tool as it is a weapon.",
+            "category": "MELEE",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/126/72/KABARKnife-7e48ad8b.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": false
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/126/72/KABARKnife-7e48ad8b.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/126/72/KABARKnife-7e48ad8b.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/47/25/KABARKnife-d1e740c0.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/126/72/KABARKnife-7e48ad8b.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/118/53/KABARKnife-8a3517f5.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/126/72/KABARKnife-7e48ad8b.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "MELEE"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "A72D5EB4-6E59-4873-A8C1-35B9F9C3CC78",
+            "name": "Barbed Baseball Bat",
+            "description": "Not a conventional weapon on the battlefield, but a useful one nonetheless.",
+            "category": "MELEE",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/3/9/BarbedBaseballBat-fdf73eab.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/3/9/BarbedBaseballBat-fdf73eab.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/3/9/BarbedBaseballBat-fdf73eab.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/65/39/BarbedBaseballBat-bfd92a2a.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/3/9/BarbedBaseballBat-fdf73eab.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/113/125/BarbedBaseballBat-8f7d503f.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/3/9/BarbedBaseballBat-fdf73eab.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "MELEE"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "FCCB3286-83FC-4482-85EF-C5C28256A909",
+            "name": "Arditi Dagger",
+            "description": "The Arditi were an elite unit of Italian shock troops during World War I. Disbanding after the war, they were notorious for employing daggers as their primary weapon.",
+            "category": "MELEE",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/40/125/ArditiDagger-2883ed9b.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/40/125/ArditiDagger-2883ed9b.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/40/125/ArditiDagger-2883ed9b.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/36/19/ArditiDagger-dced227f.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/40/125/ArditiDagger-2883ed9b.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/38/66/ArditiDagger-26420acd.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/40/125/ArditiDagger-2883ed9b.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "MELEE"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "94888A16-2924-406B-AC56-81828CA7DDED",
+            "name": "Sticky Dynamite",
+            "description": "Sticky bundle of dynamite that can be placed and detonated on demand. Effective against structures, vehicles and infantry.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/67/64/Deployable_Dynamite_Sticky-bdc0d316.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 49108.0,
+                    "seconds": 126135.0,
+                    "kills": 5995.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": false
+                    },
+                    "unlockType": "INVENTORY",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/67/64/Deployable_Dynamite_Sticky-bdc0d316.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/67/64/Deployable_Dynamite_Sticky-bdc0d316.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/35/65/Deployable_Dynamite_Sticky-23bfdd6a.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/67/64/Deployable_Dynamite_Sticky-bdc0d316.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/70/60/Deployable_Dynamite_Sticky-bac40716.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/67/64/Deployable_Dynamite_Sticky-bdc0d316.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute kills": 2.85,
+                    "per minute shots": 23.36
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "9BCDB1F5-5E1C-4C3E-824C-8C05CC0CE21A",
+            "name": "Bandages",
+            "description": "Single-use field dressings that heal a single soldier on the move. Any damage will cancel the heal.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/29/72/Supply_Medical_Pouch-1db89f38.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 38331.0,
+                    "seconds": 22030.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "WEAPON",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/29/72/Supply_Medical_Pouch-1db89f38.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/29/72/Supply_Medical_Pouch-1db89f38.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/42/88/Supply_Medical_Pouch-d6581a25.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/29/72/Supply_Medical_Pouch-1db89f38.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/30/114/Supply_Medical_Pouch-e28e80ed.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/29/72/Supply_Medical_Pouch-1db89f38.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute shots": 104.4
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "6DFD1536-BBBB-4528-917A-7E2821FB4B6B",
+            "name": "AT Mine",
+            "description": "Anti-Tank Mines will explode and cause significant damage when traversed by enemy vehicles.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/75/14/Deployable_AT_Mine-4bf207e1.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 666.0,
+                    "seconds": 3955.0,
+                    "kills": 64.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": false
+                    },
+                    "unlockType": "INVENTORY",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/75/14/Deployable_AT_Mine-4bf207e1.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/75/14/Deployable_AT_Mine-4bf207e1.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/77/33/Deployable_AT_Mine-4ddf1977.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/75/14/Deployable_AT_Mine-4bf207e1.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/79/15/Deployable_AT_Mine-4f0f84fb.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/75/14/Deployable_AT_Mine-4bf207e1.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute kills": 0.97,
+                    "per minute shots": 10.1
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "EF1C7B9B-8912-4298-8FCB-29CC75DD0E7F",
+            "name": "AP Mine",
+            "description": "The Schrapnellmine or ''Bouncing Betty'' is a tripwire anti-personnel mine. When triggered, it bounces up and deploys a lethal spray of shrapnel that can only be avoided by quickly going prone.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/63/67/Deployable_S35_SMine_Frag-c143b376.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 38.0,
+                    "seconds": 125.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "WEAPON",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/63/67/Deployable_S35_SMine_Frag-c143b376.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/63/67/Deployable_S35_SMine_Frag-c143b376.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/81/51/Deployable_S35_SMine_Frag-5133a421.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/63/67/Deployable_S35_SMine_Frag-c143b376.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/61/124/Deployable_S35_SMine_Frag-c38403b5.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/63/67/Deployable_S35_SMine_Frag-c143b376.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute kills": 0.0,
+                    "per minute shots": 18.24
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "5F5E5C4A-A425-4A79-A8F7-BA24C295930F",
+            "name": "Sticky Grenade",
+            "description": "A lighter, but sticky anti tank grenade. Effective against armored vehicles.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/63/128/Grenade_AntiTank_Frag_Sticky-3f809cbe.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 30.0,
+                    "seconds": 35.0,
+                    "kills": 7.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "WEAPON",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/63/128/Grenade_AntiTank_Frag_Sticky-3f809cbe.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/63/128/Grenade_AntiTank_Frag_Sticky-3f809cbe.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/12/111/Grenade_AntiTank_Frag_Sticky-0c91ad4f.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/63/128/Grenade_AntiTank_Frag_Sticky-3f809cbe.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/95/8/Grenade_AntiTank_Frag_Sticky-5f080678.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/63/128/Grenade_AntiTank_Frag_Sticky-3f809cbe.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute kills": 12.0,
+                    "per minute shots": 51.43
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "2CCD2F18-CAFA-404F-B384-08CDC0F0D744",
+            "name": "Throwing Blade",
+            "description": "A sharp and well balanced blade to silently take down an enemy from a distance.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/10/68/Throwable_Blade-f644ba87.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 143.0,
+                    "seconds": 125.0,
+                    "kills": 11.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "WEAPON",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/10/68/Throwable_Blade-f644ba87.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/10/68/Throwable_Blade-f644ba87.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/54/72/Throwable_Blade-36b85baa.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/10/68/Throwable_Blade-f644ba87.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/63/29/Throwable_Blade-3fe3235b.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/10/68/Throwable_Blade-f644ba87.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute kills": 5.28,
+                    "per minute shots": 68.64
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "EBA4454E-EEB6-4AF1-9286-BD841E297ED4",
+            "name": "Medical Syringe",
+            "description": "An adrenaline injection that can be used to revive downed allies.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/82/25/Supply_Medical_Syringe-aee7e9fa.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 18.0,
+                    "seconds": 46450.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/82/25/Supply_Medical_Syringe-aee7e9fa.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/82/25/Supply_Medical_Syringe-aee7e9fa.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/79/56/Supply_Medical_Syringe-b1c8f7cc.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/82/25/Supply_Medical_Syringe-aee7e9fa.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/104/2/Supply_Medical_Syringe-68fe8f8d.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/82/25/Supply_Medical_Syringe-aee7e9fa.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute shots": 0.02
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "6732346F-3C1A-44AB-8EEE-AD51151029CF",
+            "name": "Shaped Charge",
+            "description": "A magnetic explosive charge that can be attached to vehicles. Detonated by time fuze.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/6/96/Deployable_AT_ShapedCharge-06a088be.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 17.0,
+                    "seconds": 80.0,
+                    "kills": 2.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": false
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/6/96/Deployable_AT_ShapedCharge-06a088be.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/6/96/Deployable_AT_ShapedCharge-06a088be.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/34/122/Deployable_AT_ShapedCharge-2286f6fe.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/6/96/Deployable_AT_ShapedCharge-06a088be.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/93/18/Deployable_AT_ShapedCharge-a3eea8a8.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/6/96/Deployable_AT_ShapedCharge-06a088be.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute kills": 1.5,
+                    "per minute shots": 12.75
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "5D7FB111-9439-48C6-9EAA-018320807E2D",
+            "name": "Kunai",
+            "description": "Most likely derived from a masonry or gardening tool and transformed into a formidable and silent throwing weapon.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/106/16/Throwable_Kunai-9610d695.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 143.0,
+                    "seconds": 125.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/106/16/Throwable_Kunai-9610d695.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/106/16/Throwable_Kunai-9610d695.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/48/96/Throwable_Kunai-d060014c.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/106/16/Throwable_Kunai-9610d695.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/76/88/Throwable_Kunai-b4a8477a.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/106/16/Throwable_Kunai-9610d695.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {
+                    "per minute shots": 68.64
+                }
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "42557B60-8CD7-4200-A504-1F57BB53A901",
+            "name": "Doppel-Schuss",
+            "description": "Adopted by German naval crews as they rose to prominence early in the war. Used to signal and illuminate where no other lights were available, in the middle of the sea.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/41/125/Intel_DoubleBarrelFlareGun-d783a371.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 0.0,
+                    "seconds": 0.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "WEAPON",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/41/125/Intel_DoubleBarrelFlareGun-d783a371.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/41/125/Intel_DoubleBarrelFlareGun-d783a371.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/41/66/Intel_DoubleBarrelFlareGun-29bef0ec.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/41/125/Intel_DoubleBarrelFlareGun-d783a371.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/97/55/Intel_DoubleBarrelFlareGun-9fc90a46.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/41/125/Intel_DoubleBarrelFlareGun-d783a371.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "13DFC56C-E621-49E7-8B8C-17EB5180EF7D",
+            "name": "Type 99 Mine",
+            "description": "A light, thrown, anti-tank mine that sticks only to vehicles and explodes on a timer between 5-10 seconds. Two of these light mines are carried at once.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/39/111/Deployable_Type99_Mine-d96f6efd.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 0.0,
+                    "seconds": 0.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/39/111/Deployable_Type99_Mine-d96f6efd.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/39/111/Deployable_Type99_Mine-d96f6efd.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/27/6/Deployable_Type99_Mine-1bfad4ed.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/39/111/Deployable_Type99_Mine-d96f6efd.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/49/109/Deployable_Type99_Mine-cf939c58.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/39/111/Deployable_Type99_Mine-d96f6efd.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "27390200-ADF6-78D0-6380-F2A3F69357B7",
+            "name": "Firecrackers",
+            "description": "Used to similate the sounds of gunfire to confuse the enemy and their information systems.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/80/27/Throwable_M80-b0e5f292.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 0.0,
+                    "seconds": 0.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/80/27/Throwable_M80-b0e5f292.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/80/27/Throwable_M80-b0e5f292.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/33/80/Throwable_M80-2150e9ef.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/80/27/Throwable_M80-b0e5f292.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/54/76/Throwable_M80-ca4c7f48.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/80/27/Throwable_M80-b0e5f292.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "9C08F045-E063-4A73-802A-45AE8ADB35B7",
+            "name": "RMN50 Rifle Frag",
+            "description": "More hand mortar then grenade launcher, the RMN50 fires standard 50mm mortar shells from a converted Mosin-Nagant that will explode after a timer, even in midair.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/100/46/Launcher_RMN_Grenade-9cd222df.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 0.0,
+                    "seconds": 0.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/100/46/Launcher_RMN_Grenade-9cd222df.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/100/46/Launcher_RMN_Grenade-9cd222df.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/16/39/Launcher_RMN_Grenade-1027d5ea.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/100/46/Launcher_RMN_Grenade-9cd222df.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/16/85/Launcher_RMN_Grenade-f05548e0.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/100/46/Launcher_RMN_Grenade-9cd222df.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "5B0E80BE-A31C-4CBC-9B5F-9199FE950392",
+            "name": "Demolition Grenade",
+            "description": "The No.75 Hawkins grenade works as a low power anti-tank mine, and can be thrown a longer distance than a tranditional heavy anti-tank mine.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/79/87/Grenade_Demolition-b1577ee3.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 0.0,
+                    "seconds": 0.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/79/87/Grenade_Demolition-b1577ee3.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/79/87/Grenade_Demolition-b1577ee3.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/86/7/Grenade_Demolition-56f9f68f.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/79/87/Grenade_Demolition-b1577ee3.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/94/122/Grenade_Demolition-5e7a2f19.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/79/87/Grenade_Demolition-b1577ee3.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "E9B7DD3A-BDEC-4F6E-84E0-93D6845FACE8",
+            "name": "Pistol Flamethrower",
+            "description": "A hand held, disposable, flamethrower firing a short burst of flame that can devastate individual infantry targets.",
+            "category": "",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/123/106/Launcher_AntiPersonal_Pistol_Fire-859644ba.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "shots": 0.0,
+                    "seconds": 0.0,
+                    "kills": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "WEAPON",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/123/106/Launcher_AntiPersonal_Pistol_Fire-859644ba.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/123/106/Launcher_AntiPersonal_Pistol_Fire-859644ba.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/124/63/Launcher_AntiPersonal_Pistol_Fire-7c3feb83.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/123/106/Launcher_AntiPersonal_Pistol_Fire-859644ba.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/13/81/Launcher_AntiPersonal_Pistol_Fire-0d511242.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/123/106/Launcher_AntiPersonal_Pistol_Fire-859644ba.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "GADGET"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "333D0B8C-404B-4B99-9588-B01736E0B742",
+            "name": "Repetierpistole M1912",
+            "description": "The M1912 was a rugged and dependable pistol with an integral magazine. First used in World War I, the German Army ordered 60,000 pistols when Germany annexed Austria in 1938.",
+            "category": "SIDEARM",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/25/63/SteyrM1912-19c1c826.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "accuracy": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": false
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/25/63/SteyrM1912-19c1c826.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/25/63/SteyrM1912-19c1c826.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/119/61/SteyrM1912-89c317d2.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/25/63/SteyrM1912-19c1c826.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/88/49/SteyrM1912-a8cf1c49.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/25/63/SteyrM1912-19c1c826.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "SIDEARM"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "F854DCB1-8E11-4654-B439-77927F40D559",
+            "name": "Type 94",
+            "description": "Manufactured in Japan since before the war, some viewed this pistol as being unnecessarily complex in its design while others admired that it was compact and lightweight.",
+            "category": "SIDEARM",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/80/92/Type94_Pistol-50a47503.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "accuracy": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/80/92/Type94_Pistol-50a47503.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/80/92/Type94_Pistol-50a47503.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/125/14/Type94_Pistol-7df2319f.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/80/92/Type94_Pistol-50a47503.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/38/23/Type94_Pistol-26178ed0.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/80/92/Type94_Pistol-50a47503.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "SIDEARM"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "C35A999B-7AD3-457D-85F2-EE49558088F5",
+            "name": "Welrod",
+            "description": "The British developed the Welrod pistol to be as quiet as possible. It was bolt-operated and magazine fed. At only 73 dBA, it was about as loud as a present-day car.",
+            "category": "SIDEARM",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/12/75/Welrod-f4b59480.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "accuracy": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/12/75/Welrod-f4b59480.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/12/75/Welrod-f4b59480.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/100/4/Welrod-9cfc5eab.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/12/75/Welrod-f4b59480.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/111/85/Welrod-91555286.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/12/75/Welrod-f4b59480.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "SIDEARM"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "1B25CCD1-D293-4D42-978C-DF993793C854",
+            "name": "PPK",
+            "description": "Designed in 1929, the PPK is the short version of the PP.  While the newer P38 was the standard sidearm of German military during World War II the PPK was adopted in small numbers throughout the war.",
+            "category": "SIDEARM",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/101/40/WaltherPPK-6528d353.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "accuracy": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/101/40/WaltherPPK-6528d353.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/101/40/WaltherPPK-6528d353.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/60/73/WaltherPPK-c4b7cb5c.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/101/40/WaltherPPK-6528d353.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/6/15/WaltherPPK-fa0f3179.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/101/40/WaltherPPK-6528d353.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "SIDEARM"
+        }
+    },
+    {
+        "weapon": {
+            "guid": "010F6FE3-4674-477F-9CDB-B71882C5C9CB",
+            "name": "PPKS",
+            "description": "Designed in 1929, the PPK is the short version of the PP.  While the newer P38 was the standard sidearm of German military during World War II the PPK was adopted in small numbers throughout the war.",
+            "category": "SIDEARM",
+            "imageUrl": "[BB_PREFIX]/gamedata/Casablanca/72/67/WaltherPPKSuppressed-b8bdb5d5.png",
+            "accessories": [],
+            "star": null,
+            "stats": {
+                "values": {
+                    "kills": 0.0,
+                    "headshots": 0.0,
+                    "accuracy": 0.0,
+                    "seconds": 0.0,
+                    "score": 0.0,
+                    "hits": 0.0,
+                    "shots": 0.0
+                }
+            },
+            "unlockRequirements": [
+                {
+                    "code": "",
+                    "progression": {
+                        "valueNeeded": 0.0,
+                        "valueAcquired": 0.0,
+                        "unlocked": true
+                    },
+                    "unlockType": "UNLOCKPART",
+                    "criterias": []
+                }
+            ],
+            "progression": {
+                "valueNeeded": 1.0,
+                "valueAcquired": 1.0,
+                "unlocked": true
+            },
+            "info": {
+                "ammo": "",
+                "ammoType": "",
+                "rateOfFire": "",
+                "range": "",
+                "fireModeSingle": false,
+                "fireModeBurst": false,
+                "fireModeAuto": false,
+                "statDamage": -1.0,
+                "statAccuracy": -1.0,
+                "statMobility": -1.0,
+                "statRange": -1.0,
+                "statHandling": -1.0,
+                "statReload": 0.0,
+                "statControl": 0.0,
+                "statFireRate": 0.0,
+                "statAttackSpeed": 0.0,
+                "canBreakWood": false,
+                "canCutBarbedWire": false,
+                "canDamageLightVehicle": false,
+                "numberOfMagazines": 0,
+                "damageDropPoints": null
+            },
+            "price": 0,
+            "images": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/72/67/WaltherPPKSuppressed-b8bdb5d5.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/72/67/WaltherPPKSuppressed-b8bdb5d5.png"
+            },
+            "svgImage": "[BB_PREFIX]/gamedata/Casablanca/121/70/WaltherPPKSuppressed-79bae734.svg",
+            "hires": {
+                "Png256xANY": "[BB_PREFIX]/gamedata/Casablanca/72/67/WaltherPPKSuppressed-b8bdb5d5.png",
+                "Png300xANY": "",
+                "Png1024xANY": "[BB_PREFIX]/gamedata/Casablanca/8/12/WaltherPPKSuppressed-08f43d8f.png",
+                "Small": "[BB_PREFIX]/gamedata/Casablanca/72/67/WaltherPPKSuppressed-b8bdb5d5.png"
+            },
+            "purchaseInfo": {
+                "purchasePrice": 0
+            },
+            "kitShortcutLicenses": [],
+            "expansion": null,
+            "premium": false,
+            "rank": null,
+            "extendedStats": {
+                "values": {}
+            }
+        },
+        "group": {
+            "name": "SIDEARM"
+        }
+    }
+]

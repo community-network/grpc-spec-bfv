@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service inventory {
+    rpc getInventories (GetInventoriesRequest) returns (GetInventoriesResponse) {}
+}
+
+message GetInventoriesRequest {
+    repeated PlayerInfo players = 1;
+    int32 invType = 2;
+}
+
+message PlayerInfo {
+    int64 personaId = 1;
+}
+
+message GetInventoriesResponse {
+}

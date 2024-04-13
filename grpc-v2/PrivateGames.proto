@@ -1,0 +1,160 @@
+syntax = "proto3";
+
+service PrivateGames {
+    rpc getPlayground (PlaygroundRequest) returns (PlaygroundResponse) {}
+    rpc GetConstraints (Empty) returns (GetConstraintsResponse) {}
+    rpc listPlaygroundsByOwner (ListPlaygroundsByOwnerRequest) returns (ListPlaygroundsByOwnerResponse) {}
+    rpc getScheduledBlueprints (GetScheduledBlueprintsRequest) returns (GetScheduledBlueprintsResponse) {}
+    rpc getBlueprintsById (GetBlueprintsByIdRequest) returns (GetBlueprintsByIdResponse) {}
+    rpc createGameTemplate (CreateGameTemplateRequest) returns (CreateGameTemplateResponse) {}
+}
+
+message CreateGameTemplateResponse {
+    int64 gameId = 1;
+    string pingSite = 2;
+}
+
+message CreateGameTemplateErrorResponse {
+    string error = 1;
+    string pingSite = 2;
+}
+
+message PingSite {
+    string name = 1;
+    int32 ping = 2;
+}
+
+message CreateGameTemplateRequest {
+    string protocol = 1;
+    string playground = 2;
+    string checksum = 3;
+    repeated PingSite pingsites = 5;
+}
+
+message GetBlueprintsByIdResponse {
+    repeated BlueprintInfo blueprintInfo = 1;
+}
+
+message GetBlueprintsByIdRequest {
+    repeated string blueprint_ids = 1;
+    repeated string include_fields = 2;
+}
+
+message GetScheduledBlueprintsRequest {
+    string grpc_protocol_version = 1;
+}
+
+message GetScheduledBlueprintsResponse {
+    repeated BlueprintInfo blueprintInfo = 1;
+}
+
+message BlueprintInfo {
+    string blueprintType = 1;
+    string blueprintId = 2;
+}
+
+message ListPlaygroundsByOwnerRequest {
+    int32 playerid = 1;
+    string blueprint_type = 2;
+}
+
+message ListPlaygroundsByOwnerResponse {
+    repeated Playground playgrounds = 1;
+    //repeated Playground validatedPlaygrounds = 2;
+}
+
+message Empty {
+}
+
+message GlobalConstraints {
+    int32 maxPlaygroundsPerPlayer = 1;
+    int32 maxGameServersPerPlayer = 2;
+    int32 maxFollowedHostsListSize = 3;
+}
+
+message GetConstraintsResponse {
+    GlobalConstraints globalConstraints = 1;
+}
+
+message PlaygroundRequest {
+    string playground_id = 2;
+}
+
+message PlaygroundResponse {
+    Playground server = 1;
+}
+
+message Playground {
+    string playgroundId = 1;
+    int32 ownerId = 2;
+    string bluePrintType = 3;
+    string configName = 4;
+    repeated Classes infoMutators = 6;
+    MapRotation mapRotation = 7;
+    string checksum = 9;
+    Creation createdAt = 11;
+    Creation updatedAt = 12;
+    serverDesc serverdesc = 13;
+}
+
+message serverDesc {
+    string serverName = 1;
+    descMutator description = 2;
+}
+
+message descMutator {
+    string text = 1;
+}
+
+message MapRotation {
+    repeated MapInfo mapRotation = 1;
+    int32 roundIndex = 2;
+}
+
+message Classes {
+    string name = 1;
+    string className = 2;
+    ClassMutator value = 3;
+}
+
+message Creation {
+    int32 seconds = 1;
+}
+
+message MapInfo {
+    string mapname = 1;
+    string mode = 2;
+    int32 gameSize = 3;
+    int32 rounds = 4;
+    string mapMode = 6;
+    int32 warmUpSize = 8;
+    int32 allowedSpectators = 9;
+}
+
+message ClassMutator {
+    BoolMutator boolValue = 1;
+    CustomMutator limits = 5;
+}
+
+message CustomMutator {
+    float floatVal = 1;
+    int32 intVal = 2;
+}
+
+message IntMutator {
+    int32 intValue = 1;
+    int32 behaviour = 2;
+}
+
+message StringMutator {
+    string stringValue = 1;
+}
+
+message FloatMutator {
+    float floatValue = 1;
+    int32 behaviour = 2;
+}
+
+message BoolMutator {
+    bool boolValue = 1;
+}

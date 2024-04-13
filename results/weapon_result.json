@@ -1,0 +1,532 @@
+{
+    "wtypemg42": {
+        "type": "Mmg",
+        "weaponName": "MG 42",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/28/90/MG42-1ca6b52d.png"
+    },
+    "wtypemg34": {
+        "type": "Mmg",
+        "weaponName": "MG 34",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/12/71/MG34-f447ad5e.png"
+    },
+    "wtypedarne": {
+        "type": "Mmg",
+        "weaponName": "M1922 MG",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/13/91/Darne-f35be432.png"
+    },
+    "wtypeg43": {
+        "type": "Semi-auto rifle",
+        "weaponName": "Gewehr 43",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/53/116/Gewehr43-cb742d1a.png"
+    },
+    "wtypem1car": {
+        "type": "Semi-auto rifle",
+        "weaponName": "M1A1 Carbine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/14/114/M1A1Carbine-0e72e354.png"
+    },
+    "wtypetsmlesar": {
+        "type": "Semi-auto rifle",
+        "weaponName": "Turner SMLE",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/117/98/TurnerSMLE-75621421.png"
+    },
+    "wtypems1916": {
+        "type": "Semi-auto rifle",
+        "weaponName": "Selbstlader 1916",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/11/36/Selbstlader1916-f5dcd71a.png"
+    },
+    "wtypegusvolsar": {
+        "type": "Semi-auto rifle",
+        "weaponName": "Gewehr 1-5",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/104/113/Gewehr15-688f09a9.png"
+    },
+    "wtypeam42": {
+        "type": "Semi-auto rifle",
+        "weaponName": "Ag m/42",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/123/17/M42-7befb739.png"
+    },
+    "wtypemasm1944": {
+        "type": "Semi-auto rifle",
+        "weaponName": "MAS 44",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/112/118/Mas44-70764a58.png"
+    },
+    "wtypewz38": {
+        "type": "Semi-auto rifle",
+        "weaponName": "Karabin 1938M",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/1/72/Wz38M-01b8c70d.png"
+    },
+    "wtypem1gar": {
+        "type": "Semi-auto rifle",
+        "weaponName": "M1 Garand",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/62/43/M1Garand-3e2b5802.png"
+    },
+    "wtypem3infraredsniper": {
+        "type": "Semi-auto rifle",
+        "weaponName": "M3 Infrared",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/93/6/M3_Infrared_SniperCarbine-a3fa218b.png"
+    },
+    "wtypem1941johnsonrifle": {
+        "type": "Semi-auto rifle",
+        "weaponName": "M1941 Johnson",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/55/71/M1941_JohnsonRifle-374730d3.png"
+    },
+    "wtypemscoutm1916": {
+        "type": "Melee",
+        "weaponName": "Scout Knife M1916",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/108/117/ScoutKnifeM1916-6c8b69f9.png"
+    },
+    "wtypemkukri": {
+        "type": "Melee",
+        "weaponName": "Kukri",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/99/51/Kukri-63cd4e8e.png"
+    },
+    "wtypembrarmyknife": {
+        "type": "Melee",
+        "weaponName": "British Army Jack Knife",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/58/98/BritishArmyJackKnife-c6623eae.png"
+    },
+    "wtypembolousmc": {
+        "type": "Melee",
+        "weaponName": "Bolo-Guna",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/84/32/BoloKnife-5420b66c.png"
+    },
+    "wtypemislepickaxe": {
+        "type": "Melee",
+        "weaponName": "Ilse's Pickaxe",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/23/65/Pickaxe-17bf1b74.png"
+    },
+    "wtypeboysat": {
+        "type": "Anti-materiel rifle",
+        "weaponName": "Boys AT Rifle",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/40/8/BoysAT-d8f83999.png"
+    },
+    "wtypepanzerbuchseat": {
+        "type": "Anti-materiel rifle",
+        "weaponName": "Panzerbüchse 39",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/86/77/Panzerbuchse_39-aab3bc76.png"
+    },
+    "gctlgrenrifle": {
+        "type": "Gadget",
+        "weaponName": "Frag Grenade Rifle",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/27/32/Launcher_SMLE_Grenade-1be05d77.png"
+    },
+    "gctlrpf": {
+        "type": "Gadget",
+        "weaponName": "Panzerfaust",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/5/34/Launcher_AntiTank_Rocket_Frag_01-05de7537.png"
+    },
+    "gctdac": {
+        "type": "Gadget",
+        "weaponName": "Ammo Crate",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/64/80/Supply_Ammo_Crate-40503eb3.png"
+    },
+    "gcttbin": {
+        "type": "Gadget",
+        "weaponName": "Spotting Scope",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/87/49/Intel_Scope-a931f9f1.png"
+    },
+    "gctlfla": {
+        "type": "Gadget",
+        "weaponName": "Flare Gun",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/39/101/Intel_FlareGun-d99b0424.png"
+    },
+    "gctdsb": {
+        "type": "Gadget",
+        "weaponName": "Spawn Beacon",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/14/64/Deployable_SpawnBeacon_Single-f2c0bc51.png"
+    },
+    "gctthrwgsmo": {
+        "type": "Gadget",
+        "weaponName": "Smoke Grenade",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/21/11/Grenade_AntiPersonal_Smoke-150b5665.png"
+    },
+    "gctthrwgfrag": {
+        "type": "Gadget",
+        "weaponName": "Frag Grenade",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/81/102/Grenade_AntiPersonal_Frag_Fuse_UK-51667306.png"
+    },
+    "gctthrwgfi": {
+        "type": "Gadget",
+        "weaponName": "Incendiary Grenade",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/59/68/Grenade_AntiPersonal_Fire-3bbc4243.png"
+    },
+    "gctlrpiat": {
+        "type": "Gadget",
+        "weaponName": "PIAT",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/72/110/Launchers_AntiTank_Rocket_Frag_03-b86e6998.png"
+    },
+    "gctlgrenpistol": {
+        "type": "Gadget",
+        "weaponName": "AT Grenade Pistol",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/121/56/Launcher_AntiTank_Pistol_Frag-7938b179.png"
+    },
+    "gctlgrensmoke": {
+        "type": "Gadget",
+        "weaponName": "Smoke Grenade Rifle",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/27/32/Launcher_SMLE_Grenade-1be05d77.png"
+    },
+    "gctthrwgimp": {
+        "type": "Gadget",
+        "weaponName": "Impact Grenade",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/79/127/Grenade_AntiPersonal_Frag_Impact_UK-4f81ac0f.png"
+    },
+    "gctlrf": {
+        "type": "Gadget",
+        "weaponName": "Fliegerfaust",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/78/82/Launcher_AntiAir_Rocket_Frag-b252fba3.png"
+    },
+    "gctlrbaz": {
+        "type": "Gadget",
+        "weaponName": "M1A1 Bazooka",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/120/61/Launcher_AntiTank_Rocket_Frag_04-883dd48a.png"
+    },
+    "gctlgrenpistolcmp": {
+        "type": "Gadget",
+        "weaponName": "Kampfpistole",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/63/9/Launcher_AntiTank_Pistol_CMP-3f090ca4.png"
+    },
+    "wtypelewis": {
+        "type": "Lmg",
+        "weaponName": "Lewis Gun",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/32/48/LewisLMG-e0d04932.png"
+    },
+    "wtypesigke7": {
+        "type": "Lmg",
+        "weaponName": "KE7",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/118/90/SIGKE7-8aa6fea9.png"
+    },
+    "wtypebren": {
+        "type": "Lmg",
+        "weaponName": "Bren Gun",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/76/39/BRENGun-4c2753f2.png"
+    },
+    "wtypefg42": {
+        "type": "Lmg",
+        "weaponName": "FG-42",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/58/56/FG42-c6c82ba2.png"
+    },
+    "wtypels26": {
+        "type": "Lmg",
+        "weaponName": "LS/26",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/63/120/LS26-c1883823.png"
+    },
+    "wtypemadsenmg": {
+        "type": "Lmg",
+        "weaponName": "Madsen MG",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/72/30/MiniMadsen-b8e2e5c4.png"
+    },
+    "wtypechau": {
+        "type": "Lmg",
+        "weaponName": "Chauchat",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/16/54/Chauchat-10361a12.png"
+    },
+    "wtypeBAR1918A2": {
+        "type": "Lmg",
+        "weaponName": "BAR M1918A2",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/76/79/Bar1918_A2-b44ff667.png"
+    },
+    "wtypetype97MG": {
+        "type": "Lmg",
+        "weaponName": "Type 97 MG",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/1/74/Type97MG-01b69c34.png"
+    },
+    "wtypetype11lmg": {
+        "type": "Lmg",
+        "weaponName": "Type 11 LMG",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/22/107/Nambu_Type11-166b8aa9.png"
+    },
+    "wtypebauto5": {
+        "type": "Shotgun",
+        "weaponName": "12g Automatic",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/67/68/12gAutomatic-4344bfef.png"
+    },
+    "wtypew1897sho": {
+        "type": "Shotgun",
+        "weaponName": "M1897",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/56/21/M1897Shotgun-381578b2.png"
+    },
+    "wtypeith37sho": {
+        "type": "Shotgun",
+        "weaponName": "Model 37",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/30/81/Model37-e2aff9bb.png"
+    },
+    "wtypesisho": {
+        "type": "Shotgun",
+        "weaponName": "Sjögren Shotgun",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/67/49/SjogrenShotgun-43cfe31f.png"
+    },
+    "wtypec96rifle": {
+        "type": "Pistol carbine",
+        "weaponName": "Trench Carbine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/81/86/C96_Carbine-af56338e.png"
+    },
+    "wtypep08rifle": {
+        "type": "Pistol carbine",
+        "weaponName": "P08 Carbine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/92/106/P08Carbine-5c6a750b.png"
+    },
+    "wtypefp45l": {
+        "type": "Sidearm",
+        "weaponName": "Liberator",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/14/107/FP45Liberator-0e952d0b.png"
+    },
+    "wtypewmkiv": {
+        "type": "Sidearm",
+        "weaponName": "Mk VI Revolver",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/104/47/MKVIRevolver-982f4b4b.png"
+    },
+    "wtypm1911": {
+        "type": "Sidearm",
+        "weaponName": "M1911",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/15/46/M1911-0fd23c61.png"
+    },
+    "wtypewp38": {
+        "type": "Sidearm",
+        "weaponName": "P38 Pistol",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/56/19/WaltherP38-3813c59d.png"
+    },
+    "wtyperuby": {
+        "type": "Sidearm",
+        "weaponName": "Ruby",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/2/114/RubyPistol-02727dd8.png"
+    },
+    "wtypep08": {
+        "type": "Sidearm",
+        "weaponName": "P08 Pistol",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/20/62/LugerP8-ec3e2eca.png"
+    },
+    "wtypemodel27": {
+        "type": "Sidearm",
+        "weaponName": "Model 27",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/74/62/Model27_Long-4a3efef6.png"
+    },
+    "wtypm1911s": {
+        "type": "Sidearm",
+        "weaponName": "M1911 Suppressed",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/22/6/M1911_suppressed-ea0651d2.png"
+    },
+    "wtypestg44": {
+        "type": "Assault rifle",
+        "weaponName": "StG 44",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/105/84/STG44MP44-97548575.png"
+    },
+    "wtypegusvolar": {
+        "type": "Assault rifle",
+        "weaponName": "Sturmgewehr 1-5",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/92/116/SturmGewehr15-a4740184.png"
+    },
+    "wtypew1907ar": {
+        "type": "Assault rifle",
+        "weaponName": "M1907 SF",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/10/84/M1907SF-f6ac6f26.png"
+    },
+    "wtyperib1918": {
+        "type": "Assault rifle",
+        "weaponName": "Ribeyrolles 1918",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/18/44/Ribeyrolles-eed41ed9.png"
+    },
+    "wtypebredapg": {
+        "type": "Assault rifle",
+        "weaponName": "Breda M1935 PG",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/96/128/BredaPG-a080089a.png"
+    },
+    "wtypem2car": {
+        "type": "Assault rifle",
+        "weaponName": "M2 Carbine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/42/42/M2Carbine-d6d6efcb.png"
+    },
+    "wtypedelislerifle": {
+        "type": "Bolt action carbine",
+        "weaponName": "Commando Carbine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/24/90/DeLisleCarabine-18a64a00.png"
+    },
+    "wtypesmle5": {
+        "type": "Bolt action carbine",
+        "weaponName": "Jungle Carbine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/48/99/LeeEinfeldNo5-309d1cbe.png"
+    },
+    "wtypetm1928a1": {
+        "type": "Smg",
+        "weaponName": "M1928A1",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/61/31/Thompson-c31f1ac0.png"
+    },
+    "wtypemp28": {
+        "type": "Smg",
+        "weaponName": "MP28",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/16/100/MP28-f09c5670.png"
+    },
+    "wtypesten": {
+        "type": "Smg",
+        "weaponName": "STEN",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/111/56/STENGun-9138fc17.png"
+    },
+    "wtypeskp31": {
+        "type": "Smg",
+        "weaponName": "Suomi KP/-31",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/43/8/Suomi-2bf82a33.png"
+    },
+    "wtypmp40": {
+        "type": "Smg",
+        "weaponName": "MP40",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/1/100/MP40-0164787e.png"
+    },
+    "wtypezk383": {
+        "type": "Smg",
+        "weaponName": "ZK-383",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/55/66/ZK383-374279ef.png"
+    },
+    "wtypbermod38": {
+        "type": "Smg",
+        "weaponName": "MAB 38",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/31/89/MAB38-e1595a2e.png"
+    },
+    "wtypet100": {
+        "type": "Smg",
+        "weaponName": "Type 100",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/117/23/Type100_SMG-8b174d3a.png"
+    },
+    "wtypeM3SMG": {
+        "type": "Smg",
+        "weaponName": "M3 Grease Gun",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/108/75/M3SMG-6cb56d9d.png"
+    },
+    "wtypenambut2a": {
+        "type": "Smg",
+        "weaponName": "Type 2A",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/59/80/Nambu_Type2A-3b5090e2.png"
+    },
+    "wtypebwelgun": {
+        "type": "Smg",
+        "weaponName": "Welgun",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/82/71/Welgun-aeb91d41.png"
+    },
+    "wtypekrag": {
+        "type": "Bolt action rifle",
+        "weaponName": "Krag–Jørgensen",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/48/119/KragJorgensen-30895eb5.png"
+    },
+    "wtypegewm9530": {
+        "type": "Bolt action rifle",
+        "weaponName": "Gewehr M95/30",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/31/50/Gewehr9530-e1ce76f9.png"
+    },
+    "wtypesmle4": {
+        "type": "Bolt action rifle",
+        "weaponName": "Lee-Enfield No.4 Mk I",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/123/1/LeeEnfield-85ff8090.png"
+    },
+    "wtypekar98k": {
+        "type": "Bolt action rifle",
+        "weaponName": "Kar98k",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/1/45/Kar98K-01d381cd.png"
+    },
+    "wtyperosssrmk3": {
+        "type": "Bolt action rifle",
+        "weaponName": "Ross Rifle Mk III",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/55/48/RossRifle-c930c7e9.png"
+    },
+    "wtypet99arisaka": {
+        "type": "Bolt action rifle",
+        "weaponName": "Type 99 Arisaka",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/53/117/Type_99_Arisaka-cb8bc4ed.png"
+    },
+    "wtypek31": {
+        "type": "Bolt action rifle",
+        "weaponName": "K31/43",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/111/12/K3143-910cfbf7.png"
+    },
+    "wtypersc1918": {
+        "type": "Self-loading rifle",
+        "weaponName": "RSC",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/31/88/RSC-1f58be6c.png"
+    },
+    "wtypelugersar": {
+        "type": "Self-loading rifle",
+        "weaponName": "Selbstlader 1906",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/73/15/Selbstlader1906-b7f1cea4.png"
+    },
+    "wtyperemm8slr": {
+        "type": "Self-loading rifle",
+        "weaponName": "Model 8",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/16/90/RemingtonM8-10a6aa82.png"
+    },
+    "wtypezh29slr": {
+        "type": "Self-loading rifle",
+        "weaponName": "ZH-29",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/98/26/ZH29-62e6adf5.png"
+    },
+    "wtypes2200": {
+        "type": "Mmg",
+        "weaponName": "S2-200",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/42/122/S2200-d68665c9.png"
+    },
+    "wtypem1919a6": {
+        "type": "Mmg",
+        "weaponName": "M1919A6",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/78/45/M1919A6-b22db6be.png"
+    },
+    "wtypemhatchet": {
+        "type": "Melee",
+        "weaponName": "Hatchet",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/115/91/Hatchet-8da526ed.png"
+    },
+    "wtypemclub": {
+        "type": "Melee",
+        "weaponName": "Club",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/65/50/MeleeClub-41ce6631.png"
+    },
+    "wtypemshovel": {
+        "type": "Gadget",
+        "weaponName": "Lunge Mine",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/104/71/Boomstick-68475909.png"
+    },
+    "wtypempickaxe": {
+        "type": "Melee",
+        "weaponName": "Pickaxe",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/23/65/Pickaxe-17bf1b74.png"
+    },
+    "wtypemcricket": {
+        "type": "Melee",
+        "weaponName": "Cricket Bat",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/79/112/CricketBat-b1907335.png"
+    },
+    "wtypemfsjeager": {
+        "type": "Melee",
+        "weaponName": "Fallschirmjäger Switchblade",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/16/53/Switchblade-f03546ee.png"
+    },
+    "wtypemsai": {
+        "type": "Melee",
+        "weaponName": "Sai",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/89/111/IronSai-a7911f90.png"
+    },
+    "wtypemkatana": {
+        "type": "Gadget",
+        "weaponName": "Katana",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/39/62/Katana-273e8e24.png"
+    },
+    "wtypem30luftd": {
+        "type": "Shotgun",
+        "weaponName": "M30 Drilling",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/109/46/M30LuftwaffeDrilling-93d25c9c.png"
+    },
+    "wtypetromboncino": {
+        "type": "Bolt action carbine",
+        "weaponName": "M28 con Tromboncino",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/31/101/Tromboncino_M28-e19b76f7.png"
+    },
+    "wtypemp34s1": {
+        "type": "Smg",
+        "weaponName": "MP34",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/126/28/MP34-82e44afe.png"
+    },
+    "wtypeemp": {
+        "type": "Smg",
+        "weaponName": "EMP",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/95/50/EMP-5f3287c2.png"
+    },
+    "gctthrwgat": {
+        "type": "Gadget",
+        "weaponName": "Anti-Tank Bundle Grenade",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/114/1/Grenade_AntiTank_Frag_Impact-8e011bdd.png"
+    }
+}

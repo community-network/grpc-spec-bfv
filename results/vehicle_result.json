@@ -1,0 +1,67 @@
+{
+    "taTigISturm": {
+        "type": "Tanks",
+        "vehicleName": "STURMTIGER",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/60/118/Sturmtiger-3c762491.png"
+    },
+    "trM3Halft": {
+        "type": "Transports",
+        "vehicleName": "M3",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/93/64/M3-5dc0e0e7.png"
+    },
+    "trT48GMC": {
+        "type": "Transports",
+        "vehicleName": "T48 GMC",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/27/54/M3_T48-1bcaca18.png"
+    },
+    "trSdKfz": {
+        "type": "Transports",
+        "vehicleName": "SD. KFZ 251 HALFTRACK",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/8/108/HanomagHalftrack-f86c7ef0.png"
+    },
+    "trPakWag": {
+        "type": "Transports",
+        "vehicleName": "SD. KFZ. 251 PAKWAGEN",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/23/24/PakwagenHalftrack-17e871af.png"
+    },
+    "taChuCro": {
+        "type": "Tanks",
+        "vehicleName": "CHURCHILL CROCODILE",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/48/121/ChurchillCrocodileTank-d0878564.png"
+    },
+    "stw6pound": {
+        "type": "Stationary",
+        "vehicleName": "6 POUNDER",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/87/113/QF6Pounder-a98f3167.png"
+    },
+    "stwFlak": {
+        "type": "Stationary",
+        "vehicleName": "FLAK 38",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/69/7/FLAK38AA-45078234.png"
+    },
+    "stwPak": {
+        "type": "Stationary",
+        "vehicleName": "PAK 40",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/57/61/PAK40-39c3918d.png"
+    },
+    "stwMGmg34": {
+        "type": "Stationary",
+        "vehicleName": "STATIONARY MG34",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/13/124/MG34_Stationary-0d84725f.png"
+    },
+    "stwMGtype93": {
+        "type": "Stationary",
+        "vehicleName": "TYPE 93 HMG",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/16/23/Stationary_Type92_HMG-10e95b63.png"
+    },
+    "stwBofors": {
+        "type": "Stationary",
+        "vehicleName": "40MM AA",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/111/83/Stationary_40mmAA-91ad1c10.png"
+    },
+    "stwType10": {
+        "type": "Stationary",
+        "vehicleName": "TYPE 10",
+        "image": "https://eaassets-a.akamaihd.net/battlelog/battlebinary/gamedata/Casablanca/81/86/Stationary_Type10-5156b60a.png"
+    }
+}

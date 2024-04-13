@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+service stats {
+    rpc getStats (GetStatsRequest) returns (GetStatsResponse) {}
+}
+
+message GetStatsRequest {
+   // repeated string categories = 1;
+    repeated int64 players = 2;
+}
+
+message StatField {
+    string name = 1;
+    double value = 2;
+}
+
+message CatFields {
+    repeated StatField fields = 1;
+}
+
+message StatCategory {
+    string catName = 1;
+    CatFields catFields = 2;
+}
+
+message PlayerStat {
+    int64 player = 1;
+    repeated StatCategory categories = 2;
+}
+
+message GetStatsResponse {
+    repeated PlayerStat playerStats = 1;
+}

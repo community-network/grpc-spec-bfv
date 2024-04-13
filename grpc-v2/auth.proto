@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service auth {
+    rpc viaAuthCode (AuthRequest) returns (AuthResponse) {}
+}
+
+message AuthRequest {
+    string auth_code = 1;
+    int32 platform = 2;
+}
+
+message AuthResponse {
+    string auth_code = 1;
+    int64 playerId = 2;
+}
