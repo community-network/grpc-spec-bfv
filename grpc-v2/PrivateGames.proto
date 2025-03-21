@@ -54,7 +54,7 @@ message BlueprintInfo {
 }
 
 message ListPlaygroundsByOwnerRequest {
-    int32 playerid = 1;
+    int64 playerid = 1;
     string blueprint_type = 2;
 }
 
@@ -86,7 +86,7 @@ message PlaygroundResponse {
 
 message Playground {
     string playgroundId = 1;
-    int32 ownerId = 2;
+    int64 ownerId = 2;
     string bluePrintType = 3;
     string configName = 4;
     repeated Classes infoMutators = 6;
