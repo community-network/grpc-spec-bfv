@@ -2,27 +2,17 @@ import sys
 from pprint import pprint
 import asyncio
 import json
-from grpcClient import (
-    getstats,
-    grpcAuth,
-    getPlayground,
-    getConstraints,
-    listPlaygroundsByOwner,
-    getScheduledBlueprints,
-    getBlueprintsById,
-    getInventories,
-    createGameTemplate,
-)
-from accessToken import checkBf5GatewaySession
+from grpc_client_bfv.grpcClient import ApiClient
+from grpc_client_bfv.accessToken import checkBf5GatewaySession
 
-sys.path.append("./proto")
-from proto import stats_pb2
+# sys.path.append("./proto")
+# from proto import stats_pb2
 
 
 async def main():
     token = "QUOxADTSOsYJr1SgJ8RayWcsgvJqgGa4bqIcrEg7AQ"
     code = await checkBf5GatewaySession(token)
-    answer = await grpcAuth(code)
+    answer = await ApiClient().grpc_auth(code)
     gw_sess = answer["authCode"]
     # answer = await getPlayground(gw_sess, "9be10590-441c-11ea-ab05-68bba39e8402")
     # answer = await getConstraints(gw_sess)
@@ -38,9 +28,9 @@ async def main():
     #     gw_sess, sheduled["blueprintInfo"][0]["blueprintId"]
     # )
     # answer = await getInventories(gw_sess, 794397421)
-    answer = await getstats(gw_sess, [1005115206694, 1006485334219, 1007707974056])
+    answer = await ApiClient().getstats(gw_sess, [1005115206694, 1006485334219, 1007707974056])
 
-    with open("sample.json", "w") as outfile:
+    with open("test.json", "w") as outfile:
         json.dump(answer, outfile)
     print(answer)
 

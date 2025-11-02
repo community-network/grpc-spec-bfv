@@ -6,7 +6,7 @@ import urllib.parse
 
 bf5_access_token = "e5d039fe-0c78-41ee-8166-90fc5fd2cc33"
 COOKIE = {
-    "sid": "",
+    "sid": ""
     "remid": "",
 }
 

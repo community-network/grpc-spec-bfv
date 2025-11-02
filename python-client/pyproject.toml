@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "grpc-v2"
+name = "grpc-client-bfv"
 version = "0.1.0"
 description = ""
 authors = ["Zefanja Jobse <zefanjaj@gmail.com>"]
 readme = "Readme.md"
+packages = [{ include = "grpc_client_bfv" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"

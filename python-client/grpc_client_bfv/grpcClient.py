@@ -3,32 +3,37 @@ import httpcore
 from google.protobuf.json_format import MessageToDict
 
 sys.path.append("./proto")
-from proto import stats_pb2, auth_pb2, PrivateGames_pb2, inventory_pb2
+from .proto import stats_pb2, auth_pb2, PrivateGames_pb2, inventory_pb2
 
 
-async def grpcAuth(BK_ol: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+class ApiClient:
+    session: httpcore.AsyncConnectionPool
+
+    def __init__(self):
+        self.session = httpcore.AsyncConnectionPool(http2=True, keepalive_expiry=30)
+
+    async def grpc_auth(self, BK_ol: str):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/auth/viaAuthCode",
             headers={
                 "X-PatchVersion": "7.3",
                 "Content-Type": "application/x-protobuf",
                 "X-RequestId": "1633955633_c",
             },
-            content=auth_pb2.AuthRequest(auth_code=BK_ol, platform=1).SerializeToString(),
+            content=auth_pb2.AuthRequest(
+                auth_code=BK_ol, platform=1
+            ).SerializeToString(),
         )
         item = auth_pb2.AuthResponse()
         item.ParseFromString(response.content)
         return MessageToDict(item)
 
-
-async def createGameTemplate(
-    gw_sess: str, playground_id: str, checksum: str, location: str
-):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def create_game_template(
+        self, gw_sess: str, playground_id: str, checksum: str, location: str
+    ):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/createGameTemplate",
             headers={
                 "X-PatchVersion": "7.3",
@@ -52,11 +57,9 @@ async def createGameTemplate(
             return MessageToDict(item)
         return info
 
-
-async def getPlayground(gw_sess: str, playground_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def get_playground(self, gw_sess: str, playground_id: str):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/getPlayground",
             headers={
                 "X-PatchVersion": "7.3",
@@ -72,11 +75,9 @@ async def getPlayground(gw_sess: str, playground_id: str):
         item.ParseFromString(response.content)
         return MessageToDict(item)
 
-
-async def listPlaygroundsByOwner(gw_sess: str, player_id: int):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def list_playgrounds_by_owner(self, gw_sess: str, player_id: int):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/listPlaygroundsByOwner",
             headers={
                 "X-PatchVersion": "7.3",
@@ -92,11 +93,9 @@ async def listPlaygroundsByOwner(gw_sess: str, player_id: int):
         item.ParseFromString(response.content)
         return MessageToDict(item)
 
-
-async def getConstraints(gw_sess: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def get_constraints(self, gw_sess: str):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/GetConstraints",
             headers={
                 "X-PatchVersion": "7.3",
@@ -110,11 +109,9 @@ async def getConstraints(gw_sess: str):
         item.ParseFromString(response.content)
         return MessageToDict(item)
 
-
-async def getScheduledBlueprints(gw_sess: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def get_scheduled_blueprints(self, gw_sess: str):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/getScheduledBlueprints",
             headers={
                 "X-PatchVersion": "7.3",
@@ -130,11 +127,9 @@ async def getScheduledBlueprints(gw_sess: str):
         item.ParseFromString(response.content)
         return MessageToDict(item)
 
-
-async def getBlueprintsById(gw_sess: str, blueprint_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def get_blueprints_by_id(self, gw_sess: str, blueprint_id: str):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/getBlueprintsById",
             headers={
                 "X-PatchVersion": "7.3",
@@ -150,11 +145,9 @@ async def getBlueprintsById(gw_sess: str, blueprint_id: str):
         item.ParseFromString(response.content)
         return MessageToDict(item)
 
-
-async def getInventories(gw_sess: str, player_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def get_inventories(self, gw_sess: str, player_id: str):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/inventory/getInventories",
             headers={
                 "X-PatchVersion": "7.3",
@@ -169,11 +162,9 @@ async def getInventories(gw_sess: str, player_id: str):
         print(response.content)
         # todo: what does it return?
 
-
-async def getstats(gw_sess: str, player_ids: list[int]):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
-            'POST',
+    async def getstats(self, gw_sess: str, player_ids: list[int]):
+        response = await self.session.request(
+            "POST",
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/stats/getstats",
             headers={
                 "X-PatchVersion": "7.3",
