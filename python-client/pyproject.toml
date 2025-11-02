@@ -10,7 +10,7 @@ packages = [{ include = "grpc_client_bfv" }]
 python = "^3.11"
 grpcio = "^1.59.0"
 grpcio-tools = "^1.59.0"
-httpcore = { extras = ["http2", "asyncio"], version = "^0.18.0" }
+httpcore = { extras = ["http2", "asyncio"], version = "^1.0.9" }
 pylint = "^4.0.2"
 orjson = "^3.9.9"
 
