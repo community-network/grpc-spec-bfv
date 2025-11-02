@@ -1,4 +1,4 @@
-from bfGrpc import *
+from .bfGrpc import *
 
 
 class PingSite(gRPCMessage):

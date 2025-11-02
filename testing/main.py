@@ -1,35 +1,25 @@
 import sys
 from pprint import pprint
 import asyncio
-from grpcClient import (
-    createGameTemplate,
-    getBlueprintsById,
-    getConstraints,
-    getInventories,
-    getScheduledBlueprints,
-    getstats,
-    grpcAuth,
-    getPlayground,
-    listPlaygroundsByOwner,
-)
-from accessToken import checkBf5GatewaySession
-from component import *
+from duck_grpc_client_bfv.grpcClient import ApiClient
+from duck_grpc_client_bfv.accessToken import checkBf5GatewaySession
+from duck_grpc_client_bfv.component import *
 
 
 async def main():
     token = "QUOxADTSOsYJr1SgJ8RayWcsgvJqgGa4bqIcrEg7AQ"
     code = await checkBf5GatewaySession(token)
-    answer = await grpcAuth(code)
+    answer = await ApiClient().grpc_auth(code)
     gw_sess = answer["authCode"]
-    answer = await getPlayground(gw_sess, "9be10590-441c-11ea-ab05-68bba39e8402")
+    answer = await ApiClient().get_playground(gw_sess, "9be10590-441c-11ea-ab05-68bba39e8402")
     # answer = await getConstraints(gw_sess)
     # print(answer["playerId"])
     # answer = await listPlaygroundsByOwner(gw_sess, answer["playerId"])
 
-    playground = answer["server"]
-    answer = await createGameTemplate(
-        gw_sess, playground["playgroundId"], playground["checksum"], "aws-fra"
-    )
+    # playground = answer["server"]
+    # answer = await createGameTemplate(
+    #     gw_sess, playground["playgroundId"], playground["checksum"], "aws-fra"
+    # )
     # sheduled = await getScheduledBlueprints(gw_sess)
     # answer = await getBlueprintsById(
     #     gw_sess, sheduled["blueprintInfo"][0]["blueprintId"]

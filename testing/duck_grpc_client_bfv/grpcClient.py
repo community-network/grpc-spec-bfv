@@ -1,6 +1,6 @@
 import httpcore
 import sys
-from component import (
+from .component import (
     AuthResponse,
     CreateGameTemplateErrorResponse,
     CreateGameTemplateRequest,
@@ -22,9 +22,14 @@ from component import (
 )
 
 
-async def grpcAuth(BK_ol: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+class ApiClient:
+    session: httpcore.AsyncConnectionPool
+
+    def __init__(self):
+        self.session = httpcore.AsyncConnectionPool(http2=True, keepalive_expiry=30)
+
+    async def grpc_auth(self, BK_ol: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/auth/viaAuthCode",
             headers={
@@ -43,11 +48,10 @@ async def grpcAuth(BK_ol: str):
         )
 
 
-async def createGameTemplate(
-    gw_sess: str, playgroundId: str, checksum: str, location: str
-):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def create_game_template(
+        self, gw_sess: str, playground_id: str, checksum: str, location: str
+    ):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/createGameTemplate",
             headers={
@@ -57,7 +61,7 @@ async def createGameTemplate(
                 "X-GatewaySession": gw_sess,
             },
             content=GRPCController(protobuf=True).serialize_bytes(
-                CreateGameTemplateRequest().create(playgroundId, checksum, location)
+                CreateGameTemplateRequest().create(playground_id, checksum, location)
             ),
         )
         info = (
@@ -74,9 +78,8 @@ async def createGameTemplate(
         return info
 
 
-async def getPlayground(gw_sess: str, playground_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def get_playground(self, gw_sess: str, playground_id: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/getPlayground",
             headers={
@@ -96,9 +99,8 @@ async def getPlayground(gw_sess: str, playground_id: str):
         )
 
 
-async def listPlaygroundsByOwner(gw_sess: str, player_id: int):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def list_playgrounds_by_owner(self, gw_sess: str, player_id: int):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/listPlaygroundsByOwner",
             headers={
@@ -118,9 +120,8 @@ async def listPlaygroundsByOwner(gw_sess: str, player_id: int):
         )
 
 
-async def getConstraints(gw_sess: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def get_constraints(self, gw_sess: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/GetConstraints",
             headers={
@@ -138,9 +139,8 @@ async def getConstraints(gw_sess: str):
         )
 
 
-async def getScheduledBlueprints(gw_sess: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def get_scheduled_blueprints(self, gw_sess: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/getScheduledBlueprints",
             headers={
@@ -160,9 +160,8 @@ async def getScheduledBlueprints(gw_sess: str):
         )
 
 
-async def getBlueprintsById(gw_sess: str, blueprint_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def get_blueprints_by_id(self, gw_sess: str, blueprint_id: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/PrivateGames/getBlueprintsById",
             headers={
@@ -184,9 +183,8 @@ async def getBlueprintsById(gw_sess: str, blueprint_id: str):
         # todo: what does it return?
 
 
-async def getInventories(gw_sess: str, blueprint_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def get_inventories(self, gw_sess: str, blueprint_id: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/inventory/getInventories",
             headers={
@@ -203,9 +201,8 @@ async def getInventories(gw_sess: str, blueprint_id: str):
         # todo: what does it return?
 
 
-async def getstats(gw_sess: str, player_id: str):
-    async with httpcore.AsyncConnectionPool(http2=True) as client:
-        response = await client.request(
+    async def get_stats(self, gw_sess: str, player_id: str):
+        response = await self.session.request(
             'POST',
             "https://sparta-gw-bfv.battlelog.com/proto/prod_default/prod_default/casablanca/pc/stats/getstats",
             headers={
