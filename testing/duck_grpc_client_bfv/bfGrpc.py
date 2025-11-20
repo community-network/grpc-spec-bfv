@@ -5,43 +5,41 @@ import struct
 
 
 class GRPCController:
-    def __init__(self, file=None, protobuf=False):
+    def __init__(self, file: BytesIO | None = None):
         self.fp = file
         self.__total_size = 0
-        self.protobuf = protobuf
 
-    def deserialize_bytes(self, data, what):
+    def deserialize_bytes(
+        self, data: bytes, what: type["gRPCMessage"]
+    ) -> "gRPCMessage":
         self.fp = BytesIO()
-        self.__total_size = len(data)
         self.fp.write(data)
         self.fp.seek(0)
         output = self.deserialize(what)
         self.fp.seek(0)
         return output
 
-    def serialize_bytes(self, what) -> bytes:
+    def serialize_bytes(self, what: "gRPCMessage | str") -> bytes:
         self.fp = BytesIO()
         self.serialize(what)
         self.fp.seek(0)
         return self.fp.read()
 
-    def deserialize(self, what):
+    def deserialize(self, what: type["gRPCMessage"]) -> "gRPCMessage":
         """
         Deserialize grpc packet into expected Class
         """
-        if not self.protobuf:
-            self.__parseHeader()
+        self.__parseHeader()
         return self.__visitMessage(what, self.__total_size)
 
-    def serialize(self, what):
+    def serialize(self, what: "gRPCMessage | str"):
         """
         Serialize class into grpc packet
         """
         b = BytesIO()
         s = self.__writeMessage(b, what)
         self.__total_size = s
-        if not self.protobuf:
-            self.__writeHeader(self.__total_size)
+        self.__writeHeader(self.__total_size)
         b.seek(0)
         self.fp.write(b.read())
         return
@@ -68,14 +66,21 @@ class GRPCController:
     def readString(self) -> str:
         s = self.__readVI32()
         sb = self.fp.read(s)
-        s = sb.decode("utf-8", "backslashreplace")
+        s = sb.decode("utf-8")
         return s  #''.join(map(chr, sb))
 
-    def writeString(self, where, string) -> str:
-        s = self.__writeVI32(where, len(string))
-        if len(string) > 0:
-            where.write(bytes(string, "ascii"))
-        return s + len(string)
+    def writeString(self, where, string) -> int:
+        # I added the bytes in UTF-8. example: Gurizin Paulista ツ on the route /bf6/player
+        if isinstance(string, bytes):
+            data = string
+        else:
+            data = string.encode("utf-8")
+        length = len(data)
+        s = self.__writeVI32(where, length)
+        if length > 0:
+            where.write(data)
+        # Returns the total written: bytes of length (s) + bytes of the string
+        return s + length
 
     def readVarInt(self) -> int:
         return self.__readVI32()
@@ -83,14 +88,14 @@ class GRPCController:
     def readF32(self) -> float:
         return float(struct.unpack("f", self.fp.read(4))[0])
 
-    def writeF32(self, where, v) -> float:
+    def writeF32(self, where: BytesIO, v) -> float:
         where.write(struct.pack("f", v))
         return 4
 
-    def writeVarInt(self, where, v) -> int:
+    def writeVarInt(self, where: BytesIO, v) -> int:
         return self.__writeVI32(where, v)
 
-    def writeVarInt64(self, where, v) -> int:
+    def writeVarInt64(self, where: BytesIO, v) -> int:
         return self.__writeVI64(where, v)
 
     def __readSplittedInt64(self):
@@ -136,7 +141,7 @@ class GRPCController:
     def __joinUint64(self, e, t):
         return (e * 4294967296) + t
 
-    def __joinInt64(self, e, t):
+    def __joinInt64(self, e: int, t: int):
         n = 2147483648 & e
         if n != 0:
             e = ~e
@@ -148,11 +153,11 @@ class GRPCController:
             return -t
         return t
 
-    def __joinZigzag64(self, e, t):
+    def __joinZigzag64(self, e: int, t: int):
         i = -(1 & t)
         return self.__joinInt64((t >> 1 | e << 31) ^ i, (e >> 1) ^ i)
 
-    def writeNext(self, where, fid, wire):
+    def writeNext(self, where: BytesIO, fid: int, wire: int):
         t = (wire & 7) | (fid << 3)
         i = self.__writeVI32(where, t)
         return i
@@ -163,7 +168,7 @@ class GRPCController:
 
     # Private
 
-    def __writeVI32(self, where, t):
+    def __writeVI32(self, where: BytesIO, t: int) -> int:
         if 2**31 > t >= -(2**31):
             return self.__writeVU32(where, t)
         else:
@@ -178,7 +183,7 @@ class GRPCController:
                     break
             return i
 
-    def __writeVU32(self, where, t):
+    def __writeVU32(self, where: BytesIO, t: int) -> int:
         i = 1
         while t >= 128:
             where.write(bytes([t & 127 | 128]))
@@ -206,7 +211,7 @@ class GRPCController:
 
         return n
 
-    def __writeVI64(self, where, t):
+    def __writeVI64(self, where: BytesIO, t: int):
         high = int(t / 4294967296)
         low = t - high
         i = 1
@@ -226,7 +231,7 @@ class GRPCController:
         fid = t >> 3
         return wire, fid
 
-    def __skip_field(self, wire):
+    def __skip_field(self, wire: int):
         if wire == 0:
             l = self.__readVI32()
         elif wire == 1:
@@ -249,12 +254,12 @@ class GRPCController:
         sb = self.fp.read(4)
         self.__total_size = int.from_bytes(sb, "big")
 
-    def __writeHeader(self, size):
+    def __writeHeader(self, size: int):
         self.fp.write(b"\x00")
         self.fp.write(size.to_bytes(4, byteorder="big"))
 
     @classmethod
-    def underlying_fields(cls, other):
+    def underlying_fields(cls, other: "gRPCMessage | str") -> set[str]:
         field_map = set()
         for class_member in inspect.getmembers(other):
             if class_member[0].startswith("_"):
@@ -266,7 +271,7 @@ class GRPCController:
                 field_map.add(class_member[0])
         return field_map
 
-    def __visitMessage(self, cls, size):
+    def __visitMessage(self, cls, size: int) -> "gRPCMessage":
         fields = self.underlying_fields(cls)
         start = self.fp.tell()
         inst = cls()
@@ -297,7 +302,7 @@ class GRPCController:
 
         return inst
 
-    def writeMessage(self, where, inst):
+    def writeMessage(self, where: BytesIO, inst):
         buf = BytesIO()
         i = self.__writeMessage(buf, inst)
         v = self.__writeVI32(where, i)
@@ -305,7 +310,7 @@ class GRPCController:
         where.write(buf.read())
         return i + v
 
-    def __writeMessage(self, where, inst):
+    def __writeMessage(self, where: BytesIO, inst: "gRPCMessage | str"):
         fields = self.underlying_fields(inst)
         i = 0
         for field_name in fields:
@@ -324,22 +329,22 @@ class GRPCController:
 
 
 class TypedGRPC(object):
-    def __init__(self, field_id, cls, default=None, ignore=False):
+    def __init__(self, field_id: int, cls: type, default=None, ignore=False):
         self.field_id = field_id
         self._cls = cls
         self.default = default
         self.ignore = ignore
 
-    def is_msg(self):
+    def is_msg(self) -> bool:
         return issubclass(self._cls, gRPCMessage)
 
-    def is_flat(self):
+    def is_flat(self) -> bool:
         return issubclass(self._cls, gRPCMessageFlat)
 
-    def is_list(self):
+    def is_list(self) -> bool:
         return isinstance(self, TypedGRPCList)
 
-    def des(self, context):
+    def des(self, context: "GRPCController"):
         if self._cls == str:
             return context.readString()
         elif self._cls == gRPCInt64:
@@ -363,7 +368,7 @@ class TypedGRPC(object):
         else:
             return None
 
-    def ser(self, context, where, value):
+    def ser(self, context: "GRPCController", where: BytesIO, value):
         i = 0
         if self._cls == str:
             i += context.writeNext(where, self.field_id, 2)
@@ -395,22 +400,22 @@ class TypedGRPCList(TypedGRPC):
 
 
 class gRPCMessage:
-    def get_rpc_value(self, name):
+    def get_rpc_value(self, name: str) -> "gRPCMessage | None":
         if self.has_rpc_value(name):
             return getattr(self, "grpc_" + name)
         else:
             return None
 
-    def has_rpc_value(self, name):
+    def has_rpc_value(self, name: str) -> bool:
         return hasattr(self, "grpc_" + name)
 
-    def set_rpc_value(self, name, value):
+    def set_rpc_value(self, name: str, value) -> None:
         setattr(self, "grpc_" + name, value)
 
-    def to_dict(self):
+    def to_dict(self) -> dict:
         return self._as_dict()
 
-    def _as_dict(self):
+    def _as_dict(self) -> dict:
         output = {}
         fields = GRPCController.underlying_fields(self)
         for f in fields:
@@ -471,7 +476,7 @@ class gRPCMessageFlat(gRPCMessage):
 
 
 class gRPCMessageEnum(gRPCMessage):
-    def to_dict(self):
+    def to_dict(self) -> dict:
         out = dict()
         for key, val in self._as_dict().items():
             if val is not None:
